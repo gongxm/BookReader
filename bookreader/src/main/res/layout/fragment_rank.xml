@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hot_week"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/hot_selector"
+        android:gravity="center_vertical"
+        android:text="最热周榜"
+        android:textColor="#f00"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hot_month"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/hot_selector"
+        android:gravity="center_vertical"
+        android:text="最热月榜"
+        android:textColor="#f00"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/hot_total"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_selector"
+        android:clickable="true"
+        android:drawableLeft="@drawable/hot_selector"
+        android:gravity="center_vertical"
+        android:text="最热总榜"
+        android:textColor="#f00"
+        android:textSize="20sp"/>
+
+</LinearLayout>
